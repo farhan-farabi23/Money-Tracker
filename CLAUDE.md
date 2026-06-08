@@ -105,6 +105,15 @@ pytest -s
 
 ---
 
+## Naming convention
+
+- The project name is **Money Tracker** — never "Spendly"
+- The database file is `money_tracker.db` — never `spendly.db`
+- The demo seed email is `demo@moneytracker.com` — never `demo@spendly.com`
+- If "Spendly" appears anywhere in user messages or code, treat it as "Money Tracker" and correct it silently
+
+---
+
 ## Warnings and things to avoid
 
 - **Never use raw string returns for stub routes** once a step is implemented — always render a template
