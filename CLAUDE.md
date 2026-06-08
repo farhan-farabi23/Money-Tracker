@@ -2,13 +2,13 @@
 
 ## Project overview
 
-Spendly is a lightweight personal expense tracker built with Flask and SQLite.
+Money Tracker is a lightweight personal expense tracker built with Flask and SQLite.
 
 ---
 
 ## Architecture
 ```
-spendly/
+expence-tracker/
 ├── app.py              # All routes — single file, no blueprints
 ├── database/
 │   └── db.py           # SQLite helpers: get_db(), init_db(), seed_db()
